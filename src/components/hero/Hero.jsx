@@ -16,7 +16,7 @@ function Hero() {
       </h4>
       <div className="butons">
            <Btn text="consult now" />
-           <Btn className="about" text="About Us "/>
+           <Btn active={true} text="About Us "/>
       </div>
     </div>
   );

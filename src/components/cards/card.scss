@@ -1,0 +1,43 @@
+.text-card{
+    width: 584px;
+    height: 308px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    h2{
+        margin-top: -25px;
+        font-size: 24px;
+        line-height: 29px;
+        color: white ;
+        font-weight: 700;
+    }
+   
+    h4{
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        color: white;
+    }
+    &:hover{
+        width: 584px;
+        height: 308px;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+        h2{
+            font-size: 24px;
+            line-height: 29px;
+           color: #0D1337 ;
+            font-weight: 700;    
+        }
+        h4{
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 0.5px;
+            color: #0D1337 ;
+            
+        }
+    }
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 import './btn.scss'
-  function Btn({text}) {
+  function Btn({text,active}) {
   return (
     <div >
-        <button className='navbar-btn'>{text}</button>
+        <button className={active ? "navbar-active" : "navbar-btn"} >{text}</button>
     </div>
   )
 }
