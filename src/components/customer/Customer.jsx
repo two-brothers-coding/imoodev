@@ -5,7 +5,9 @@ import link from "../../images/link.png"
 function Customer() {
   return (
     <div className="customers">
+      <div className="cusText">
       <h1>We always prioritize customer satisfaction</h1>
+      </div>
       <div className="cards">
       <CustCard
         number="01"
