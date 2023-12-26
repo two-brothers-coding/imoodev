@@ -1,0 +1,21 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 160px;
+    .cards{
+        display: flex;
+        gap: 30px;
+    }
+    .newstitle{
+        display: flex;
+        margin-left: -800px;
+        h1{
+            font-size: 40px;
+            line-height: 48px;
+            font-weight: 700;
+            color: white;
+        }
+    }
+}

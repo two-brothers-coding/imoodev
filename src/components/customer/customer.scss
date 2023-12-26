@@ -1,13 +1,14 @@
 .customers{
     background-color:white;
     margin-top: 70px;
-
+   
    .cards{
     display: flex;
     flex-direction: row;
     gap:30px;
     margin-left: 120px;
     white-space: pre-line ;
+    padding-bottom: 60px;
    }
    .cusText{
    padding-top: 50px;
@@ -21,9 +22,7 @@
         font-weight: 700;
         color: #0B254B;
         width: 580px;
-     
        }
    }
   
-
 }

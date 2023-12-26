@@ -1,0 +1,36 @@
+.newsletter{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 42px;
+        line-height: 58px;
+        font-weight: 700;
+    }
+    .input{
+        width: 589px;
+        height: 82px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10px;
+        background-color: #0D1337;
+        .Input{
+            width: 450px;
+            height: 80px;
+            padding-left: 30px;
+            background-color: #0D1337;
+            color: white;
+            text-align:left;
+            border: none;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+    }
+}

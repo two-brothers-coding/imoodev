@@ -4,6 +4,7 @@ import Work from '../../components/what-Imoodev/Work'
 import Who from '../../components/who-is/Who'
 import Customer from '../../components/customer/Customer'
 import News from '../../components/news/News'
+import Nletter from '../../components/newsletter/Nletter'
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <Who/>
       <Customer/>
       <News/>
+      <Nletter/>
     </div>
   )
 }
